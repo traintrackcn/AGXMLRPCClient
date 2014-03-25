@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (1.3.1)
+  - libOpen (0.1.2):
+    - libOpen/CommonARC
+    - libOpen/CommonNoARC
+    - libOpen/Tao
+  - libOpen/CommonARC (0.1.2)
+  - libOpen/CommonNoARC (0.1.2)
+  - libOpen/Tao (0.1.2)
+  - WordPressApi (0.0.1):
+    - AFNetworking (>= 1.0)
+    - wpxmlrpc (~> 0.1)
+  - wpxmlrpc (0.4)
+
+DEPENDENCIES:
+  - AFNetworking (= 1.3.1)
+  - libOpen (from `https://github.com/traintrackcn/libOpen`)
+  - WordPressApi (from `https://github.com/koke/WordPressApi.git`)
+  - wpxmlrpc (~> 0.4)
+
+EXTERNAL SOURCES:
+  libOpen:
+    :git: https://github.com/traintrackcn/libOpen
+  WordPressApi:
+    :git: https://github.com/koke/WordPressApi.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  libOpen: 2230bfcc893ac0f04656ff9b08007a846deb3a05
+  WordPressApi: 6c7ab5320344fbec850f0baba4b0ec2bfd03587d
+  wpxmlrpc: 2206985822e725838c77e1143c9171e577ac063b
+
+COCOAPODS: 0.29.0
